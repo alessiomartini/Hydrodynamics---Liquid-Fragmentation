@@ -1,0 +1,31 @@
+\documentclass{report}
+\usepackage{graphicx} % Required for inserting images
+
+\usepackage[backend=biber,style=phys]{biblatex}
+\addbibresource{bibliography.bib} % Nome del file .bib
+
+\title{Hydrodynamics}
+\author{Tommaso, Martina \& Alessio}
+\date{February 2025}
+
+\usepackage{titlesec}
+\titleformat{\chapter}{\LARGE\bfseries}{\thechapter}{1em}{}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents{\LARGE}
+\newpage
+\input{Introduction}
+\input{Chapter1}
+\clearpage
+\input{Chapter2}
+\clearpage
+\input{Chapter3}
+\clearpage
+\input{Conclusions}
+
+\printbibliography
+
+\end{document}

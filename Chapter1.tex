@@ -1,0 +1,72 @@
+\chapter{Theoretical Models for fragmentation}
+
+Droplet breakup is a chaotic and complex problem, and theoretical studies typically require approximations and simplifying assumptions. To understand droplet dynamics, numerous experimental, theoretical, and numerical studies have been conducted. Today, different breakup modes have been catergorized, describing the various ways a liquid droplet can fragment under different conditions. Moreover, in highly unstable regions, modes can combine, leading to multi-mode fragmentation. Recognizing these modes is a fundamental step in analyzing the breakup mechanism. \cite{Mazi_article}
+
+In general, all atomization processes share these three stages:
+\begin{itemize}
+    \item change of topology of the initial object;
+    \item formation of ligaments;
+    \item a broad distribution of fragment sizes.
+\end{itemize}
+
+***IMMAGINE
+ 
+ Ligaments are elongated, thread-like structures that form as a liquid mass breaks apart during fragmentation and they tipically arise from instabilities within the liquid. The breakup processes continue until the hydrodynamic forces and the surface tension reach and equilibrium condition for each fragment. \cite{Mazi_article} 
+
+A very important factor in the study of fragmentation is the Weber number, a dimensionless quantity that describes the relative importance of the fluid's inertia with respect to its surface tension. The Weber number is then defined as:
+
+\begin{equation}
+    We = \frac{p_g (\Delta u)^2 d_0}{\gamma}
+    \label{eq:weber_number}
+\end{equation}
+
+where $\Delta u$ is the velocity difference of the drop and the external medium(for example air), $p_g$ is the gas density, $d_0$ is the initial drop size and $gamma$ corresponds to the liquid surface tension. 
+
+In order to study a fluid falling under the action of gravity through a quiescent medium, another important quantity is the Eötvös number, which is a dimensionless number corresponding to the ratio between the gravitational and surface tension forces acting on moving fluid. It is defined as: 
+
+\begin{equation}
+    Eo = \frac{g (\Delta \rho)^2 d_0^2}{\gamma}
+    \label{eq:weber_number}
+\end{equation}
+
+$g$ is the gravitational acceleration and $\Delta \rho$ is the pressure difference between the drop and the air stream.
+
+In the following paragraph, the processes of deformation, breakup, and fragmentation in \textit{bag-breakup} mode are presented. Then, an overview of some more general theoretical models of liquid fragmentation is provided.
+
+\section{An example: the bag breakup mode }
+
+To provide a more precise understanding of liquid fragmentation, we examine in detail the case of a droplet falling under gravity in a quiescent medium. 
+
+In particular, we present a well-studied fragmentation mechanism called the \textit{bag-breakup} mode, in which the droplet initially deforms into a thin, hollow bag. Following bag formation, a toroidal rim and a flattened core develop, generating ligaments. Then, during the falling process, these liquid structures disintegrate producing smaller fragments.
+
+***IMMAGINE
+
+***DUBBIO ARTICOLO MAZI: sono simulazioni numeriche, confermate sperimentalmente??
+\subsection{Deformation}
+At the preliminary stages, as the droplet falls, we can observe a deformation from the spherical initial shape, to a more ellipsoid, mug-like shape, which eventually becomes a similar to a bag. 
+
+This deformation is caused by the non-uniform distribution of hydrodynamic forces, such as pressure, acting on the falling droplet. Surface tension counteracts these forces but is not strong enough to maintain the droplet's stable shape \cite{Mazi_article}. In particular, the velocity of the upper side of the droplet is higher than that of the rest of the droplet due to the pressure difference. As a result, the top of the droplet flattens, while the bottom part remains rounded.
+
+It was demonstrated (\cite{Mazi_article}) that deformation decreases with reducing $E_o$ and it also occures at a slower rate. 
+
+\subsection{Bag Breakup}
+As the droplet falls, it deforms into a thin sheet, but this configuration is unstable and eventually disintegrates. Initially, the bag bursts, producing droplets and filaments, along with an upper rim and a flattened core. The core then deforms into another toroidal structure. During the descent, the rounded or straight liquid columns break apart, generating smaller fragments.
+
+***NOTA: aggiungere dati, analisi più precisa??
+\subsection{Distribution of the fragments}
+
+The rate of fragment growth is higher during the breakup of the toroidal structures compared to the bag breakup phase. For lower Eötvös numbers, there are periods where fragmentation pauses, corresponding to the deformation of the toroidal structures before they break apart. In contrast, at higher Eötvös numbers, these phases are significantly shorter due to faster deformation and breakup. In general, increasing the Eötvös number leads to a quicker fragmentation process.
+
+In \cite{Mazi_article}, to analyze fragment size distribution, a log-normal distribution was fitted to the data, revealing that most droplet diameters are less than a fraction of the initial droplet size. However, the exact distribution varies across different cases. The average fragment diameter decreases as the Eötvös number increases, indicating that higher Eötvös numbers lead to smaller fragment sizes. Most fragments fall within a specific size range, confirming that the fragmentation process produces increasingly finer droplets as instability increases.
+
+In conclusion, both the fragmentation time scale and the average fragment size decrease as the Eötvös number increases. Further statistical analysis of fragment characteristics is ongoing, requiring additional investigation methods.
+
+***GRAPHS? 
+
+***More specific description? Non vorrei che questa sezione sia troppo aderente all'articolo di mazi, meglio più generale? 
+
+
+\section{Some models for fragmentation}
+\subsection{Sequential Cascade of Breakups}
+\subsection{Aggregation Scenarii}
+\subsection{Maximum Entropy Principle and Random Breakups}
